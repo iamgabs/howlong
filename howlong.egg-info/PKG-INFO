@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: howlong
+Version: 0.0.1
+Author: Gabriel Carvalho
+Author-email: contatotrabalhogab@gmail.com
+License: MIT License
+Keywords: time execution python
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: time
+
+# howlong 
+
+Simple library to measure the execution time of a function
+
+## How to use
+~~~python
+from howlong import measure_time
+
+@measure_time
+def your_function():
+    pass
+~~~

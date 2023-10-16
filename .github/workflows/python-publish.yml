@@ -61,7 +61,7 @@ jobs:
     - name: Build and package
       run: |
         python setup.py sdist bdist_wheel
-      working-directory: path/to/your/project  # Altere para o caminho correto
+      working-directory: .  # Altere para o caminho correto
 
     - name: Publish to PyPI
       env:
